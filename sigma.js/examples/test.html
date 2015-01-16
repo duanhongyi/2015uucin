@@ -229,6 +229,50 @@ g.nodes.push({
   size: 15,
   color: colors[Math.floor(Math.random() * colors.length)]
 });
+g.nodes.push({
+  id: 'objc',
+  label: 'objc',
+  x: Math.random(),
+  y: Math.random(),
+  size: 15,
+  color: '#ccc'
+});
+
+g.nodes.push({
+  id: 'apple-swift',
+  label: 'apple-swift',
+  x: Math.random(),
+  y: Math.random(),
+  size: 15,
+  color: '#ccc'
+});
+
+g.nodes.push({
+  id: 'ios',
+  label: 'ios',
+  x: Math.random(),
+  y: Math.random(),
+  size: 15,
+  color: '#ccc'
+});
+
+g.nodes.push({
+  id: 'windows',
+  label: 'windows',
+  x: Math.random(),
+  y: Math.random(),
+  size: 15,
+  color: '#ccc'
+});
+
+g.nodes.push({
+  id: 'c#',
+  label: 'c#',
+  x: Math.random(),
+  y: Math.random(),
+  size: 15,
+  color: '#ccc'
+});
 
 
 g.edges.push({
@@ -388,6 +432,39 @@ g.edges.push({
   size: Math.random(),
   color: '#ccc'
 });
+
+g.edges.push({
+  id: 'p18',
+  source: 'windows',
+  target: 'c++',
+  size: Math.random(),
+  color: '#ccc'
+});
+
+g.edges.push({
+  id: 'p19',
+  source: 'windows',
+  target: 'c#',
+  size: Math.random(),
+  color: '#ccc'
+});
+
+g.edges.push({
+  id: 'p20',
+  source: 'apple-swift',
+  target: 'ios',
+  size: Math.random(),
+  color: '#ccc'
+});
+
+g.edges.push({
+  id: 'p21',
+  source: 'objc',
+  target: 'ios',
+  size: Math.random(),
+  color: '#ccc'
+});
+
 // Instanciate sigma:
 s = new sigma({
   graph: g,

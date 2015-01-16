@@ -13,23 +13,23 @@
     <script
       src='slides.js'></script>
   </head>
-  
+
   <style>
     /* Your individual styles here, or just use inline styles if that’s
        what you want. */
-    
-    
+
+
   </style>
 
   <body style='display: none'>
 
     <section class='slides layout-regular template-default'>
-      
+
       <!-- Your slides (<article>s) go here. Delete or comment out the
            slides below. -->
-        
-        
-      
+
+
+
       <article class='biglogo'>
       </article>
 
@@ -43,7 +43,7 @@
           2015年01月05日
         </p>
       </article>
-      
+
       <article>
         <p>
             2014已近年尾，回首全年，移动互联网作为科技移动端普及后的产物，所爆发出的新鲜生命力，尤为引人瞩目。
@@ -98,7 +98,7 @@
           <img style='height: 400px' src='images/2014_it_big_event.png'>
         </p>
         <div class='source'>
-            有钱就是任性，巨头们仍然在刷存在篇。
+            有钱就是任性，巨头们仍然在刷存在感。
         </div>
       </article>
 
@@ -143,34 +143,356 @@
             运维
         </h3>
         <p>
-          <img style='width: 800px' src='images/zhuanxing.jpg'>
+            2014我们重新定义了运维，运维不仅仅是监控和自动化部署，而是软件定义一切。
         </p>
-        <div class='source'>
-            产品在艰难重转型，团队在转型中进步。
-        </div>
+        <p>
+            软件定义一切包括：SDN（网络）、SDDC（数据中心）、SDS（存储）和SDI（基础架构）。
+        </p>
+        <ul>
+          <li>多个运维系统进行深度整合。</li>
+          <li>一切行为异步化，管理更多的硬件资源</li>
+          <li>配置文件进行自动化的版本管理。</li>
+          <li>尝试软件定义网络与基础架构。</li>
+          <li>硬件监控皆为zabbix，再无其他。</li>
+          <li>软件异常第一时间邮件通知开发。</li>
+        </ul>
       </article>
-
 
       <article>
         <h3>
-          其他
-        </h3>      
-        <p>2015技术趋势</p>
+          运维
+        </h3>
+        <p>
+          2014我们重新定义了运维，运维不仅仅是监控和自动化部署，而是软件定义一切。
+        </p>
+        <p>
+          软件定义一切包括：SDN（网络）、SDDC（数据中心）、SDS（存储）和SDI（基础架构）。
+        </p>
+        <ul>
+          <li>多个运维系统进行深度整合。</li>
+          <li>一切行为异步化，管理更多的硬件资源</li>
+          <li>配置文件进行自动化的版本管理。</li>
+          <li>尝试软件定义网络与基础架构。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          基础服务
+        </h3>
+        <p>
+          基础服务和虚拟化是实现软件即服务的基础。
+          2014年我们精简优化了已有基础服务，对bottle进行了去中心化，增加了很多有意思的基础服务。
+        </p>
+        <ul>
+          <li>bottle目前仅提供三个服务：驾车、公交、步行。</li>
+          <li>swift提供多租户支持。</li>
+          <li>内网虚拟化服务升级为基础云服务。</li>
+          <li>为SNS设计了大量的可复用的基础服务。</li>
+        </ul>
+      </article>
+
+      <article class="smaller">
+        <h3>
+          搜索
+        </h3>
+        <p>
+          cloudsearch是一个基于Lucene构建的,分布式，RESTful位置搜索服务。
+          cloudsearch设计用于位置检索服务，能够达到实时搜索，稳定，可靠，快速，使用方便。
+        </p>
+        <ul>
+          <li>采用对POI名称进行一元分词，兼容数据库检索。</li>
+          <li>引入词位检索功能，来避免一元切割造成的召回率高而准确率低的情况。</li>
+          <li>采用分布式结构来解决一元切分后导致的系统变慢问题。</li>
+          <li>提供基于热度联想搜索功能。</li>
+          <li>实时小批量更新数据。</li>
+          <li>大批量、快速更新数据。</li>
+          <li>利用整个集群在不停机的情况下，更新全部数据。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          云
+        </h3>
+        <p>
+          任何一个使用基于互联网的方法来计算，存储和开发的公司，都可以从技术上叫做从事云的公司。
+          “云”其实是互联网的一个隐喻，“云计算”其实就是使用互联网来接入存储或者运行在远程服务器端的应用，数据，或者服务。
+        </p>
+        <p>
+          2014年，我们的发布的内网服务大部分使用IAAS。未来的路还很长，但是我们已经走出了第一步，运维的一小步，筑梦园的一大步。
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          WEB
+        </h3>
+        <p>
+          对于目前的web团队来讲有两个基本方向，Ｍobile和PC。
+          Mobile浏览器的性能是不太乐观，Web程序怎么也无法做出APP那样的用户体验，对于一些功能需求低的网页使用Web实现非常合适。
+        </p>
+        <ul>
+          <li>响应似设计融入了日常的网页设计。</li>
+          <li>对于一些功能需求低，简单的App功能使用Web实现。</li>
+          <li>将HTML5引入了Mobile Web。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于设计
+        </h3>
+        <p>
+          风险驱动做适度的设计。
+          至下而上的构建，尽量不把架构设计活动从实现分离出来，同时减少甚至忽略架构文档。
+        </p>
+        <ul>
+          <li>开发人员开始学会基础的软件分层。</li>
+          <li>开发人员开始懂得风险驱动设计的意义。</li>
+          <li>设计的已经在潜移默化的影响到每一个人。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于团队
+        </h3>
+        <p>
+          走了很多人，来了一些人；学会了一些道理。
+        </p>
         <ul class="build">
-            <li>智能硬件</li>
-            <li>物联网</li>        
-            <li>机器学习</li>
-            <li>云端架构</li>   
-            <li>软件定义基础设施</li>
-            <li>大数据分析</li>
+          <li>devops</li>
+          <li>测试</li>
+          <li>设计</li>
+          <li>改变</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          2014年结语
+        </h3>
+        <p>
+          <img style='width: 800px' src='images/start.jpg'>
+        </p>
+        <div class="source">回望过去，来之不易；因为梦想，仍需坚持。 </div>
+      </article>
+
+      <article>
+        <h3>
+          2015可以做梦
+        </h3>
+        <p>
+          <img style='width: 800px' src='images/2015.jpg'>
+        </p>
+        <div class="source">我们不做小梦，我们做大梦，机会留给那些敢做大梦的人。 </div>
+      </article>
+
+      <article>
+        <h3>
+          关于运维
+        </h3>
+        <p>
+          <img style='height: 500px' src='images/yunwei.jpg'>
+        </p>
+        <div class="source">运维人员不仅仅是消防员...</div>
+      </article>
+
+      <article class="smaller">
+        <h3>
+          软件定义一切
+        </h3>
+        <p>
+          我将TripleO之前的运维称为运维的1.0时代，而TripleO之后的运维称为运维 2.0 新时代。
+          2.0 时代的一个显著特点是任何运维行为都有API，通过在外部编写程序我们可以主导运维的整个过程。
+        </p>
+        <ul>
+          <li>自动把系统和软件安装好，不管是物理机还是虚拟机。</li>
+          <li>对机器上安装的程序进行配置并且进行统一管理和收敛。</li>
+          <li>掌控集群的状态，不管是资源状态还是安装状态，只要是状态我们都需要知道。</li>
+          <li>在集群上方便的安装软件。 </li>
+          <li>编写一个剧本将资源的调度和软件的配置协调起来。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于云
+        </h3>
+        <p>
+          <img style='height: 360px' src='images/cloud.png'>
+        </p>
+        <div class="source">软件定义技术将使整个云平台实现多样化，混合云将成为主流。</div>
+      </article>
+
+      <article class="smaller">
+        <h3>
+          悠悠云
+        </h3>
+        <p>
+          关于2015，我们已经可以眺望到很多新兴的技术，其中最热门的无疑是大数据与物联网，而这两种技术的发展都离不开云计算这种基础技术的进步。
+        </p>
+        <ul>
+          <li>自动把系统和软件安装好，不管是物理机还是虚拟机。</li>
+          <li>对机器上安装的程序进行配置并且进行统一管理和收敛。</li>
+          <li>掌控集群的状态，不管是资源状态还是安装状态，只要是状态我们都需要知道。</li>
+          <li>在集群上方便的安装软件。 </li>
+          <li>编写一个剧本将资源的调度和软件的配置协调起来。</li>
+        </ul>
+      </article>
+
+      <article class="smaller">
+        <h3>
+          基础服务
+        </h3>
+        <p>
+          没有IAAS的PAAS就不能称其为PAAS，没有PAAS的SAAS就不能称其为SAAS。
+        </p>
+        <ul>
+          <li>将大量基础服务迁移到PAAS。</li>
+          <li>避免服务孤岛，一切皆为API。</li>
+          <li>提升基础服务器的安全性，注意隔离与保护。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于大数据
+        </h3>
+        <p>
+          <img style='width: 800px' src='images/big_data.jpg'>
+        </p>
+        <div class="source">Volume（大量）、Velocity（高速）、Variety（多样）、Value（价值）</div>
+      </article>
+      <article>
+        <h3>
+          悠悠大数据容量图
+        </h3>
+        <p>
+          <img style='width: 800px' src='images/data.jpg'>
+        </p>
+        <div class="source">2014年数据达到17T，伴随着SNS的上线，2015年会更多...</div>
+      </article>
+      <article>
+        <h3>
+          大数据
+        </h3>
+        <p>
+          拨开云层，探究真相，寻找大数据真正的价值。
+        </p>
+        <ul>
+          <li>在机器学习领域应用大数据。</li>
+          <li>掌握大数据的标准，入口、汇集和整合过程。</li>
+          <li>让人与人、人与物、物与物之间实现高效撮合与匹配。</li>
+          <li>组建专门的大数据团队，为公司与产品的运营提供价值。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          基础服务
+        </h3>
+        <p>
+          没有IAAS的PAAS就不能称其为PAAS，没有PAAS的SAAS就不能称其为SAAS。
+        </p>
+        <ul>
+          <li>将大量基础服务迁移到PAAS。</li>
+          <li>避免服务孤岛，一切皆为API。</li>
+          <li>提升基础服务器的安全性，注意隔离与保护。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于端
+        </h3>
+        <p>
+          未来的服务，将形成以智能化商品为“端”，以远端后台为“云”的服务模式。
+          未来已经到来，只是还不显著。事实上，这样的“云+端”模式已经出现在很多服务中。
+        </p>
+        <ul>
+          <li>测试驱动设计、测试驱动开发。</li>
+          <li>跨平台软件开发，复用各端基本业务逻辑。</li>
+          <li>推动构建工具的使用，自动测试，在构建层解耦。</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          关于团队
+        </h3>
+        <p>
+          <img style='height: 540px' src='images/team.jpg'>
+        </p>
+        <div class="source">好的团队是目标一致的团队...</div>
+      </article>
+      <article>
+        <h3>
+          建立学习型团队
+        </h3>
+        <p>
+          <img style='height: 510px' src='images/learning.jpg'>
+        </p>
+        <div class="source">建立一种无障碍的钻研、学习和交流的文化。</div>
+      </article>
+      <article>
+        <h3>
+          团队技术栈
+        </h3>
+        <iframe style='height: 510px' src="sigma.js/examples/test.html"></iframe>
+        <div class="source">现代项目的开发，需要掌握多种技术。</div>
+      </article>
+
+      <article>
+        <h3>
+          关于设计
+        </h3>
+        <p>
+          架构设计师定义的仅仅是骨架或者约束。真正的设计是每个人的事情，蝴蝶效应告诉我们表面看来是细小的变化可能会影响整个系统的属性。
+        </p>
+        <ul>
+          <li>系统模块化设计。</li>
+          <li>风险驱动做适度设计。</li>
+          <li>促进设计的民主化。</li>
+        </ul>
+      </article>
+      <article>
+        <h3>
+          Simple is better
+        </h3>
+        <p>
+          <img style='width: 770px' src='images/em.jpg'>
+        </p>
+        <div class="source">研究必须是新的，而设计必须是好的。万物之始，大道至简，衍化至繁。好的设计是简单的设计。</div>
+      </article>
+
+      <article>
+        <h3>
+          2015 Keywords
+        </h3>
+        <p>在2015年，敢问路在何方？路在脚下！</p>
+        <ul class="build">
+          <li>智能硬件</li>
+          <li>物联网</li>
+          <li>机器学习</li>
+          <li>云端架构</li>
+          <li>软件定义一切</li>
+          <li>大数据分析</li>
+          <li>TDD</li>
+          <li>跨平台</li>
         </ul>
       </article>
 
       <article>
         <h2>
-          就这些了，谢谢！
-        </h2>      
-    </article>
+          That's all, do come true！
+        </h2>
+      </article>
+
+      <article class='biglogo'>
+      </article>
+
     </section>
 
   </body>
